@@ -35,7 +35,7 @@ python macacon.py input_movie.mp4 output_movie.mp4 -c 2.8
 ```
 
 ## sound
-Macacon does not process a sound track.   
+"macacon.py" does not process a sound track.   
 Please process it separately.  
  e.g.  
   ・Video editing software (Recommend. I use AviUtl)  

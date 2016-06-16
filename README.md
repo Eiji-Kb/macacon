@@ -6,7 +6,7 @@
 
 ##Setup:  
 1. Download the Automatic Colorization model by Ryan Dahl.  
-2. http://tinyclouds.org/colorize/  
+   http://tinyclouds.org/colorize/  
 
 2. Save "macacon.py" and "macacon.sh" in the same folder.  
 
@@ -31,7 +31,7 @@ python macacon.py input_movie.mp4 output_movie.mp4 -m
 
 Colorfulness control (This is addition functions. But not recommend. because unnatural.)
 ```
-python macacon.py input_movie.mp4 output_movie.mp4 -c 3.2
+python macacon.py input_movie.mp4 output_movie.mp4 -c 2.8
 ```
 
 ## sound
@@ -53,16 +53,16 @@ Dependencies:
 
 Basic usage:  
 ```
-sh ./macacon.sh  oronamin.mp4 neworonamin.mp4
+sh ./macacon.sh input_movie.mp4 output_movie.mp4
 ```
 To display the monitor window
 ```
-sh ./macacon.sh -m -c 1.2 oronamin.mp4 neworonamin.mp4
+sh ./macacon.sh -m input_movie.mp4 output_movie.mp4
 ```
 
 Colorfulness control (This is addition functions. But not recommend. because unnatural.)
 ```
-sh ./macacon.sh -c 2.8 oronamin.mp4 neworonamin.mp4
+sh ./macacon.sh -c 2.8 input_movie.mp4 output_movie.mp4
 ```
 
 

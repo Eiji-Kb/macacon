@@ -1,23 +1,21 @@
 # macacon
-##Movie auto colorization converter (Dahl Automatic Colorization model wrapper) 
+##Movie auto colorization converter 
+(Dahl Automatic Colorization model wrapper) 
 ====
 ## Demo
 
 
 ##Setup:
-1. Download the Automatic Colorization model by Ryan Dahl.
+1. Download the Automatic Colorization model by Ryan Dahl. 
    http://tinyclouds.org/colorize/
 
 2. Save "macacon.py" and "macacon.sh" in the same folder.
 
 ### Dependencies:
-Tensorflow
-
-python (2.7 validation)
-
-OpenCV 3.0
-
-numpy
+-Tensorflow 
+-python (2.7 validation) 
+-OpenCV 3 
+-numpy 
 
 
 ## movie
@@ -38,21 +36,20 @@ python macacon.py input_movie.mp4 output_movie.mp4 -c 3.2
 ```
 
 ## sound
-MACaCON does not process a sound track.
-Please process it separately.
+MACaCON does not process a sound track. 
+Please process it separately. 
  e.g.　　
-  ・Video editing software (I use AviUtl)
-  ・ffmpeg
+  ・Video editing software (I use AviUtl) 
+  ・ffmpeg 
 ```
 ffmpeg -i input_movie.mp4 -acodec copy -map 0:1 soundtrack.m4a
 ffmpeg -i output_movie.mp4 -i soundtrack.m4a -vcodec copy -acodec copy output_movie_color.mp4
 ```
 
 ## movie+sound
-Batch processing　（movie and sound）
+Batch processing　（movie and sound） 
 
-Dependencies:
-
+Dependencies: 
 　ffmpeg
 
 Basic usage:
@@ -70,9 +67,7 @@ sh ./macacon.sh -c 2.8 oronamin.mp4 neworonamin.mp4
 ```
 
 
-## Important:
-non-commercial
-
 ## Note:
-When you publish the colorization work,
+-non-commercial 
+-When you publish the colorization work,
 You should respect the will of the movie director.

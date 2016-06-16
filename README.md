@@ -12,8 +12,11 @@
 
 ### Dependencies:
 Tensorflow
+
 python (2.7 validation)
+
 OpenCV 3.0
+
 numpy
 
 
@@ -49,6 +52,7 @@ ffmpeg -i output_movie.mp4 -i soundtrack.m4a -vcodec copy -acodec copy output_mo
 Batch processing　（movie and sound）
 
 Dependencies:
+
 　ffmpeg
 
 Basic usage:

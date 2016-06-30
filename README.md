@@ -1,6 +1,6 @@
 # macacon  
 ##Movie auto colorization converter(Dahl Automatic Colorization model wrapper) 
-====
+---
 ## Demo  
 
 https://www.youtube.com/watch?v=XrgQaVmeWbQ
@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=bNwa4Sk-2Yo
 * numpy  
 
 
-## movie
+## MOVIE
 Basic usage:  
 
 ```
@@ -37,7 +37,7 @@ Colorfulness control (This is addition functions. But not recommend. because unn
 python macacon.py input_movie.mp4 output_movie.mp4 -c 2.8
 ```
 
-## sound
+## SOUND
 "macacon.py" does not process a sound track.   
 Please process it separately.  
  e.g.  
@@ -48,7 +48,7 @@ ffmpeg -i input_movie.mp4 -acodec copy -map 0:1 soundtrack.m4a
 ffmpeg -i output_movie.mp4 -i soundtrack.m4a -vcodec copy -acodec copy output_movie_color.mp4
 ```
 
-## movie+sound Batch processing 
+## MOVIE+SOUND Batch processing 
 
 Dependencies:  
 　ffmpeg  

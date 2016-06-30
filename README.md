@@ -1,9 +1,10 @@
-# under construction
 # macacon  
 ##Movie auto colorization converter(Dahl Automatic Colorization model wrapper) 
 ====
 ## Demo  
 
+https://www.youtube.com/watch?v=XrgQaVmeWbQ
+https://www.youtube.com/watch?v=bNwa4Sk-2Yo
 
 ##Setup:  
 1. Download the Automatic Colorization model by Ryan Dahl.  
@@ -13,7 +14,7 @@
 
 ### Dependencies:
 * Tensorflow   
-* python (2.7 validation)  
+* python2.7
 * OpenCV3  
 * numpy  
 
@@ -46,8 +47,7 @@ ffmpeg -i input_movie.mp4 -acodec copy -map 0:1 soundtrack.m4a
 ffmpeg -i output_movie.mp4 -i soundtrack.m4a -vcodec copy -acodec copy output_movie_color.mp4
 ```
 
-## movie+sound
-Batch processing　（movie and sound）  
+## movie+sound Batch processing 
 
 Dependencies:  
 　ffmpeg  
@@ -68,6 +68,6 @@ sh ./macacon.sh -c 2.8 input_movie.mp4 output_movie.mp4
 
 
 ## Note:
-* non-commercial  
-* When you publish the colorization work,  
- You should respect the will of the movie director.  
+* Non-commercial  
+* When you publish the colorization work,You should respect the will of the movie director.  
+日本語のブログは準備中です。

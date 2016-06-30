@@ -7,7 +7,7 @@ https://www.youtube.com/watch?v=XrgQaVmeWbQ
 
 https://www.youtube.com/watch?v=bNwa4Sk-2Yo
 
-##Setup:  
+##Setup
 1. Download the Automatic Colorization model by Ryan Dahl.  
    http://tinyclouds.org/colorize/  
 

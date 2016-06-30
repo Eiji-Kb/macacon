@@ -4,6 +4,7 @@
 ## Demo  
 
 https://www.youtube.com/watch?v=XrgQaVmeWbQ
+
 https://www.youtube.com/watch?v=bNwa4Sk-2Yo
 
 ##Setup:  
@@ -70,4 +71,4 @@ sh ./macacon.sh -c 2.8 input_movie.mp4 output_movie.mp4
 ## Note:
 * Non-commercial  
 * When you publish the colorization work,You should respect the will of the movie director.  
-日本語のブログは準備中です。
+* 日本語のブログは準備中です。

@@ -32,7 +32,7 @@ To display the monitor window
 python macacon.py input_movie.mp4 output_movie.mp4 -m
 ```
 
-Colorfulness control (This is addition functions. But not recommend. because unnatural.)
+Colorfulness control (Not recommend. because unnatural.)
 ```
 python macacon.py input_movie.mp4 output_movie.mp4 -c 2.8
 ```
@@ -62,7 +62,7 @@ To display the monitor window
 sh ./macacon.sh -m input_movie.mp4 output_movie.mp4
 ```
 
-Colorfulness control (This is addition functions. But not recommend. because unnatural.)
+Colorfulness control (Not recommend. because unnatural.)
 ```
 sh ./macacon.sh -c 2.8 input_movie.mp4 output_movie.mp4
 ```

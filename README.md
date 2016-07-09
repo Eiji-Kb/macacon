@@ -41,7 +41,7 @@ python macacon.py input_movie.mp4 output_movie.mp4 -c 2.8
 "macacon.py" does not process a sound track.   
 Please process it separately.  
  e.g.  
-  ・Video editing software (Recommend. I use AviUtl.)  
+  ・Video editing software 
   ・ffmpeg  
 ```
 ffmpeg -i input_movie.mp4 -acodec copy -map 0:1 soundtrack.m4a

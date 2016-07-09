@@ -13,10 +13,10 @@ https://www.youtube.com/watch?v=bNwa4Sk-2Yo
 
 2. Save "macacon.py" and "macacon.sh" in the same folder.  
 
-### Dependencies:
-* Tensorflow   
+### Tested on:
+* Tensorflow 0.9.0   
 * python2.7
-* OpenCV3  
+* OpenCV3.0.0  
 * numpy  
 
 

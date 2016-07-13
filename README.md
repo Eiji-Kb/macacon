@@ -70,4 +70,4 @@ sh ./macacon.sh -c 2.8 input_movie.mp4 output_movie.mp4
 
 ## Note:
 * Non-commercial  
-* When you publish your colorization work,You should respect the will of the movie director.  
+* You should respect the will of the movie director when you publish your colorization work.
